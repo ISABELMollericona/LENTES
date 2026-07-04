@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="24" fill="#1a1a1a"/>
+  <!-- Outer frame left lens -->
+  <circle cx="62" cy="102" r="38" fill="none" stroke="#D4AF37" stroke-width="9"/>
+  <!-- Inner lens left -->
+  <circle cx="62" cy="102" r="26" fill="#D4AF3722"/>
+  <!-- Outer frame right lens -->
+  <circle cx="130" cy="102" r="38" fill="none" stroke="#D4AF37" stroke-width="9"/>
+  <!-- Inner lens right -->
+  <circle cx="130" cy="102" r="26" fill="#D4AF3722"/>
+  <!-- Bridge -->
+  <path d="M100 102 Q96 96 96 102" fill="none" stroke="#D4AF37" stroke-width="7" stroke-linecap="round"/>
+  <!-- Left temple -->
+  <line x1="24" y1="92" x2="24" y2="102" stroke="#D4AF37" stroke-width="7" stroke-linecap="round"/>
+  <!-- Right temple -->
+  <line x1="168" y1="92" x2="168" y2="102" stroke="#D4AF37" stroke-width="7" stroke-linecap="round"/>
+  <!-- "G" for Golden (subtle) -->
+  <text x="96" y="154" text-anchor="middle" font-family="Georgia,serif" font-size="20" font-weight="bold" fill="#D4AF37" opacity="0.9">GOLDEN</text>
+</svg>

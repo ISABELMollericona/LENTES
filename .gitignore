@@ -1,0 +1,20 @@
+# Carpetas que no quiero subir
+/diagramas/
+/claude/
+/dataset/
+/vendor/
+# Dependencias
+node_modules/
+/public/img/lentes/dataset/
+/.claude/
+/public/img/
+docs/tesis_agent/credentials/
+# Variables de entorno
+.env
+
+# Logs
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db  

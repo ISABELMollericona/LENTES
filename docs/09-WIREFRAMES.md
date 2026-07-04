@@ -1,0 +1,271 @@
+# WIREFRAMES - Óptica Golden eCommerce
+
+## 1. Home / Catálogo de Lentes
+
+```
+┌──────────────────────────────────────────────────────────┐
+│  ██ Navbar: FONDO NEGRO ██  [Buscar...]  [🛒 Dorado]  [👤 Juan] │
+│  ██ "Óptica Golden" en DORADO ██                        │
+├──────────────────────────────────────────────────────────┤
+│                                                          │
+│  ┌─────── Filtros ─────────────────────────────────┐    │
+│  │ ███ FILTROS (fondo negro, título dorado) ███    │    │
+│  │ ☑ Hombre  ☑ Mujer  ☑ Unisex                     │    │
+│  │ Montura: [Completa] [Semi al aire] [Al aire]     │    │
+│  │ Precio:  ●━━━━━━━━●━━━ Bs 150 - Bs 800          │    │
+│  │          (track dorado)                          │    │
+│  │ Marca: [▼ Todas]  Color: [▼ Todos]              │    │
+│  │ [Aplicar Filtros (dorado)]                       │    │
+│  └──────────────────────────────────────────────────┘    │
+│                                                          │
+│  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐   │
+│  │ [IMG]   │  │ [IMG]   │  │ [IMG]   │  │ [IMG]   │   │
+│  │ Lente 1 │  │ Lente 2 │  │ Lente 3 │  │ Lente 4 │   │
+│  │ Bs 350  │  │ Bs 500  │  │ Bs 280  │  │ Bs 650  │   │
+│  │(dorado) │  │(dorado) │  │(dorado) │  │(dorado) │   │
+│  │ ● Disp  │  │ ● Disp  │  │ ● Disp  │  │ ✗ Vend  │   │
+│  │[Dorado] │  │[Dorado] │  │[Dorado] │  │ [❌]   │   │
+│  │ (borde   │  │ (borde   │  │ (borde   │  │         │   │
+│  │  dorado  │  │  dorado  │  │  dorado  │  │         │   │
+│  │ on hover)│  │ on hover)│  │ on hover)│  │         │   │
+│  └─────────┘  └─────────┘  └─────────┘  └─────────┘   │
+│  ┌─────────┐  ┌─────────┐  ┌─────────────────────────┐ │
+│  │ [IMG]   │  │ [IMG]   │  │     ◀ 1 2 3 ▶          │ │
+│  │ Lente 5 │  │ Lente 6 │  │   Paginación            │ │
+│  └─────────┘  └─────────┘  └─────────────────────────┘ │
+│                                                          │
+├──────────────────────────────────────────────────────────┤
+│  ██ FOOTER: Fondo negro, borde dorado, texto dorado ██  │
+│  © 2026 Óptica Golden - Todos los derechos reservados    │
+└──────────────────────────────────────────────────────────┘
+```
+
+## 2. Detalle del Producto
+
+```
+┌──────────────────────────────────────────────────────────┐
+│  ◀ Volver al catálogo                                    │
+├──────────────────────────────────────────────────────────┤
+│                                                          │
+│  ┌─────────────────┐  ┌───────────────────────────────┐ │
+│  │                 │  │  LENTE RAY-BAN CLUBMASTER      │ │
+│  │   [IMAGEN       │  │                               │ │
+│  │    PRINCIPAL]   │  │  Código: LEN-0042             │ │
+│  │                 │  │  Marca: Ray-Ban                │ │
+│  │                 │  │  Categoría: Ópticos            │ │
+│  │  ┌───┐ ┌───┐   │  │  Tipo: Óptico                  │ │
+│  │  │   │ │   │   │  │  Montura: Completa              │ │
+│  │  │IMG│ │IMG│   │  │  Material: Acetato              │ │
+│  │  │ 1 │ │ 2 │   │  │  Color: Negro/Carey             │ │
+│  │  └───┘ └───┘   │  │  Género: Hombre                │ │
+│  └─────────────────┘  │                               │ │
+│                        │  ● DISPONIBLE                 │ │
+│                        │                               │ │
+│                        │  PRECIO: Bs 750               │ │
+│                        │                               │ │
+│                        │  [🛒 Agregar al Carrito]      │ │
+│                        │  [🤖 Preguntar al Asesor]     │ │
+│                        └───────────────────────────────┘ │
+│                                                          │
+│  DESCRIPCIÓN:                                            │
+│  Lentes ópticos Ray-Ban Clubmaster...                    │
+│                                                          │
+├──────────────────────────────────────────────────────────┤
+│  LENTES RELACIONADOS                                    │
+│  ┌──────┐ ┌──────┐ ┌──────┐ ┌──────┐                  │ │
+│  │ [IMG]│ │ [IMG]│ │ [IMG]│ │ [IMG]│                  │ │
+│  └──────┘ └──────┘ └──────┘ └──────┘                  │ │
+└──────────────────────────────────────────────────────────┘
+```
+
+## 3. Asesor Virtual (Chat)
+
+```
+┌──────────────────────────────────────────────────────────┐
+│  🤖 Asesor Virtual - Golden Assistant                    │
+├──────────────────────────────────────────────────────────┤
+│                                                          │
+│  ┌── Mensajes ──────────────────────────────────────┐   │
+│  │                                                   │   │
+│  │  [IA] ¡Hola! Soy Golden Assistant.                │   │
+│  │  Te ayudaré a encontrar los lentes perfectos.     │   │
+│  │                                                   │   │
+│  │  [IA] ¿Para qué usarás los lentes?                │   │
+│  │  [💻 Computadora] [📖 Lectura] [📚 Estudio]      │   │
+│  │  [🚗 Conducir] [☀️ Uso diario] [⚽ Deportes]     │   │
+│  │  [👔 Moda]                                       │   │
+│  │                                                   │   │
+│  │  [Tú] Para lectura y computadora                  │   │
+│  │                                                   │   │
+│  │  [IA] Excelente. ¿Cuál es tu presupuesto máximo?  │   │
+│  │                                                   │   │
+│  │  [Tú] Hasta Bs 500                                │   │
+│  │                                                   │   │
+│  └───────────────────────────────────────────────────┘   │
+│                                                          │
+│  ┌── Input ─────────────────────────────────────────┐   │
+│  │ [................................................]│   │
+│  │ [Enviar]  [📷 Análisis Facial]  [💡 Recomendar] │   │
+│  └──────────────────────────────────────────────────┘   │
+└──────────────────────────────────────────────────────────┘
+```
+
+## 4. Resultados de Recomendación
+
+```
+┌──────────────────────────────────────────────────────────┐
+│  🎯 Tus Lentes Recomendados                              │
+├──────────────────────────────────────────────────────────┤
+│                                                          │
+│  Preferencias: Lectura | Bs 500 | Clásico | Completa    │
+│  Forma rostro: Ovalado                                   │
+│                                                          │
+│  ┌──────────────────────────────────────────────────┐   │
+│  │  #1 92% Compatibilidad                           │   │
+│  │  ┌──────┐ Ray-Ban Clubmaster                     │   │
+│  │  │ IMG  │ Bs 450 ● Disponible                    │   │
+│  │  │      │ "La montura completa complementa        │   │
+│  │  └──────┘ tu rostro ovalado..."                   │   │
+│  │                              [🛒 Agregar]        │   │
+│  ├──────────────────────────────────────────────────┤   │
+│  │  #2 85% Compatibilidad                           │   │
+│  │  ┌──────┐ Oakley Rectangular                     │   │
+│  │  │ IMG  │ Bs 380 ● Disponible                    │   │
+│  │  │      │ "Excelente opción para lectura..."      │   │
+│  │  └──────┘                              [🛒 Agregar]│  │
+│  ├──────────────────────────────────────────────────┤   │
+│  │  #3 78% Compatibilidad                           │   │
+│  │  ┌──────┐ Polaroid Clásico                       │   │
+│  │  │ IMG  │ Bs 320 ● Disponible                    │   │
+│  │  └──────┘                              [🛒 Agregar]│  │
+│  └──────────────────────────────────────────────────┘   │
+│                                                          │
+│  [🔄 Nueva Búsqueda]  [📋 Ver Todo el Catálogo]        │
+└──────────────────────────────────────────────────────────┘
+```
+
+## 5. Carrito de Compras
+
+```
+┌──────────────────────────────────────────────────────────┐
+│  🛒 Mi Carrito                                  2 items  │
+├──────────────────────────────────────────────────────────┤
+│                                                          │
+│  ┌── Item ──────────────────────────────────────────┐   │
+│  │ ┌────┐ Ray-Ban Clubmaster - Negro                │   │
+│  │ │IMG │ Código: LEN-0042                          │   │
+│  │ └────┘ Bs 450                    [🗑️ Eliminar]   │   │
+│  └──────────────────────────────────────────────────┘   │
+│  ┌── Item ──────────────────────────────────────────┐   │
+│  │ ┌────┐ Oakley Rectangular - Azul                 │   │
+│  │ │IMG │ Código: LEN-0051                          │   │
+│  │ └────┘ Bs 380                    [🗑️ Eliminar]   │   │
+│  └──────────────────────────────────────────────────┘   │
+│                                                          │
+│  ────────────────────────────────────────────────────    │
+│  SUBTOTAL:                                 Bs 830        │
+│  ENVÍO:                                    Gratis        │
+│  TOTAL:                                    Bs 830        │
+│                                                          │
+│  [🛒 Seguir Comprando]            [✅ Confirmar Compra]  │
+└──────────────────────────────────────────────────────────┘
+```
+
+## 6. Análisis Facial
+
+```
+┌──────────────────────────────────────────────────────────┐
+│  📷 Análisis Facial                                      │
+├──────────────────────────────────────────────────────────┤
+│                                                          │
+│  ┌──────────────────────────────────────────────────┐   │
+│  │                                                  │   │
+│  │               [📷 CÁMARA]                        │   │
+│  │                                                  │   │
+│  │       Coloca tu rostro frente a la cámara        │   │
+│  │                                                  │   │
+│  │                                                  │   │
+│  │                                                  │   │
+│  └──────────────────────────────────────────────────┘   │
+│                                                          │
+│  O sube una foto: [📁 Seleccionar imagen]               │
+│                                                          │
+│  [🔍 Iniciar Análisis]                                  │
+│                                                          │
+│  ┌── Resultado ─────────────────────────────────────┐   │
+│  │  Forma de rostro detectada:                      │   │
+│  │                                                  │   │
+│  │     ⬤  OVALADO                                   │   │
+│  │     Confianza: 94%                                │   │
+│  │                                                  │   │
+│  │  💡 Recomendación: Tu rostro ovalado permite     │   │
+│  │  usar la mayoría de monturas.                    │   │
+│  └──────────────────────────────────────────────────┘   │
+│                                                          │
+│  [✅ Usar en mis recomendaciones]                        │
+└──────────────────────────────────────────────────────────┘
+```
+
+## 7. Dashboard Administrativo
+
+```
+┌──────────────────────────────────────────────────────────┐
+│  ⚙️ Admin - Dashboard          [👤 Admin] [🔓 Salir]    │
+├──────────────────────────────────────────────────────────┤
+│  📊 Panel de Control                                    │
+│                                                          │
+│  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐       │
+│  │ 👥      │ │ 👓      │ │ 💰      │ │ 📦      │       │
+│  │Usuarios │ │Lentes   │ │ Ventas  │ │ Pedidos │       │
+│  │  156    │ │ 45 Disp │ │  Bs 23K │ │   89    │       │
+│  │  +12%   │ │ 23 Vend │ │  +8%    │ │  +15%   │       │
+│  └─────────┘ └─────────┘ └─────────┘ └─────────┘       │
+│                                                          │
+│  ┌── Ventas Mensuales ──┐  ┌── Lentes más vendidos ─┐  │
+│  │  ██                   │  │  1. Ray-Ban (12)       │  │
+│  │  ██████               │  │  2. Oakley (9)         │  │
+│  │  ██████████           │  │  3. Polaroid (7)       │  │
+│  │  ████████████████     │  │  4. Vogue (5)          │  │
+│  │  ████████████████████ │  │  5. Carrera (4)        │  │
+│  │  ──────────────────── │  └────────────────────────┘  │
+│  │  Ene Feb Mar Abr May  │                              │
+│  └───────────────────────┘                              │
+│                                                          │
+│  ┌── Actividad Reciente ─────────────────────────────┐  │
+│  │  🛒 Pedido PED-0001 - Juan Pérez - Bs 450 - Hoy  │  │
+│  │  🛒 Pedido PED-0002 - María García - Bs 830 - Ayer│  │
+│  │  🤖 Recomendación - Ana López - Ovalado  - Hoy   │  │
+│  │  📷 Análisis Facial - Carlos Ruiz - Redondo - Ayer│  │
+│  └───────────────────────────────────────────────────┘  │
+└──────────────────────────────────────────────────────────┘
+```
+
+## 8. Login / Register
+
+```
+┌──────────────────────────────────────────────────────────┐
+│                                                          │
+│                 🔒 INICIAR SESIÓN                        │
+│                                                          │
+│              ┌──────────────────────┐                    │
+│              │  correo@email.com    │                    │
+│              └──────────────────────┘                    │
+│              ┌──────────────────────┐                    │
+│              │  ************        │                    │
+│              └──────────────────────┘                    │
+│                                                          │
+│              [✅ Iniciar Sesión]                        │
+│                                                          │
+│           ¿Olvidaste tu contraseña?                     │
+│                                                          │
+│    ¿No tienes cuenta? [Regístrate aquí]                 │
+│                                                          │
+│  ┌── Beneficios ─────────────────────────────────────┐  │
+│  │  ✅ Catálogo completo de lentes                    │  │
+│  │  🤖 Asesor virtual con IA                         │  │
+│  │  📸 Análisis facial inteligente                   │  │
+│  │  💳 Compra segura                                  │  │
+│  └───────────────────────────────────────────────────┘  │
+│                                                          │
+└──────────────────────────────────────────────────────────┘
+```

@@ -1,0 +1,17 @@
+Eres un experto en normas APA 7 generando referencias bibliográficas.
+
+Genera entre 5 y 10 referencias bibliográficas reales y verosímiles relacionadas con:
+
+TEMA: {thesis_title}
+SECCIÓN: {section_context}
+
+Instrucciones:
+1. Cada referencia debe estar en formato APA 7 completo.
+2. Incluye autores reales y reconocidos en el campo.
+3. Las referencias deben incluir: libros, artículos de revistas, conferencias y recursos web.
+4. Ordena alfabéticamente por apellido del primer autor.
+5. Formato: Apellido, A. (Año). Título en cursiva. Editorial. DOI o URL
+6. Asegúrate de que las referencias sean temáticamente relevantes a la sección.
+7. Incluye al menos 2 referencias de los últimos 5 años.
+
+Genera SOLO la lista de referencias, sin introducciones ni comentarios.

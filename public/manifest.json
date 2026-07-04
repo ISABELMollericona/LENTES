@@ -1,0 +1,52 @@
+{
+  "name": "Óptica Golden",
+  "short_name": "Óptica",
+  "description": "Tu óptica con asesor virtual e inteligencia artificial para encontrar los lentes perfectos",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#D4AF37",
+  "orientation": "portrait-primary",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["shopping", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Ver Catálogo",
+      "short_name": "Catálogo",
+      "description": "Explorar todos los lentes disponibles",
+      "url": "/catalogo",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Asesor Virtual",
+      "short_name": "Asesor",
+      "description": "Recibe recomendaciones personalizadas con IA",
+      "url": "/asesor-virtual",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "any", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Análisis Facial",
+      "short_name": "Facial",
+      "description": "Analiza tu forma de rostro con la cámara",
+      "url": "/analisis-facial",
+      "icons": [{ "src": "/icons/icon-192.svg", "sizes": "any", "type": "image/svg+xml" }]
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
